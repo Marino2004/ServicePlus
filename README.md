@@ -10,6 +10,13 @@ Un système d'authentification multiplateforme qui permettra aux utilisateurs de
 - MariaDB >= 10.4.2
 - Maildev 2.1.0 
 ```
+## Dépendances :
+
+    - JWT
+    - Mailer
+    - RefreshToken
+    - Uuid
+    - API Plateform
 
 ## Installation et Congiguration
 ```

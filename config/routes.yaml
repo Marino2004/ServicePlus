@@ -1,0 +1,14 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+api_login_check:
+    path: /login_check
+api_doc:
+    path: /
+    controller: api_platform.swagger_ui.action
+app_email_send:
+    path: '/email/send'
+    controller: 'App\Controller\EmailController::sendEmail'
+    methods: ['GET']
